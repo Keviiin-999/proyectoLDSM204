@@ -1,0 +1,86 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+header {
+    background-color: #5249488f;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.form-inline .form-control {
+    width: 200px;
+}
+
+.navbar .btn-primary {
+    margin-left: 15px;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+.footer {
+    background-color: #5249488f;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Category list styles */
+h5 {
+    font-weight: bold;
+}
+
+.list-group-item {
+    cursor: pointer;
+}
+
+.list-group-item:hover {
+    background-color: #f8f9fa;
+}
+
+/* Card styles */
+.card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    color: #28a745;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #333;
+}
+
+.btn-success {
+    margin-right: 10px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 767.98px) {
+    .form-inline .form-control {
+        width: 100px;
+    }
+
+    .navbar .btn-primary, .navbar .btn-success {
+        margin-left: 5px;
+    }
+
+    .card img {
+        position: cover;
+        height: auto;
+    }
+}
