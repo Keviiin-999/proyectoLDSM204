@@ -127,7 +127,7 @@
     <div class="carousel-container owl-carousel">
       <div class="carousel-item"><img src="https://i0.wp.com/thehappening.com/wp-content/uploads/2021/02/reebok-nano-x1.jpg?fit=1024%2C694&ssl=1" alt="Imagen 1"></div>
       <div class="carousel-item"><img src="https://fintualist.com/content/images/2023/06/Captura-de-pantalla-2023-06-05-a-la-s--08.22.43--1-.png" alt="Imagen 2"></div>
-      <div class="carousel-item"><img src="../img/img2.webp" alt="Imagen 3"></div>
+      <div class="carousel-item"><img src="https://static.euronews.com/articles/stories/08/59/05/26/808x608_cmsv2_75aa317e-1504-50c0-8d93-325ce11ece0e-8590526.jpg" alt="Imagen 3"></div>
     </div>
   </section>
 
