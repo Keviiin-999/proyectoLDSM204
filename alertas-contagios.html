@@ -1,0 +1,136 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Alertas de Contagios</title>
+  <style>
+    body {
+      background: #eaf4fc;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+    }
+    .alerta-container {
+      background: white;
+      border-radius: 12px;
+      padding: 24px;
+      max-width: 800px;
+      margin: auto;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    .alerta-container h2 {
+      background-color: #15406b;
+      color: white;
+      padding: 12px;
+      border-radius: 8px;
+      font-size: 20px;
+    }
+    .alerta-container h3 {
+      margin-top: 20px;
+      color: #15406b;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 16px;
+      font-size: 16px;
+    }
+    th, td {
+      padding: 10px;
+      text-align: left;
+      border-bottom: 1px solid #ddd;
+    }
+    .alta {
+      color: white;
+      background: red;
+      border-radius: 6px;
+      padding: 4px 8px;
+    }
+    .media {
+      color: black;
+      background: gold;
+      border-radius: 6px;
+      padding: 4px 8px;
+    }
+    .baja {
+      color: white;
+      background: blue;
+      border-radius: 6px;
+      padding: 4px 8px;
+    }
+    .actualizar {
+      background-color: #245d93;
+      color: white;
+      border: none;
+      padding: 10px 16px;
+      border-radius: 8px;
+      margin-top: 20px;
+      cursor: pointer;
+    }
+    .recomendaciones {
+      margin-top: 24px;
+    }
+    .recomendaciones ul {
+      padding-left: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="alerta-container">
+    <h2>Zona actual: Col. San Rafael, León, Gto.</h2>
+    <h3>Alertas activas:</h3>
+    <table>
+      <thead>
+        <tr>
+          <th>Colonia</th>
+          <th>Nuevos contagios</th>
+          <th>Nivel de alerta</th>
+          <th>Última actualización</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Col. San Rafael</td>
+          <td>12</td>
+          <td class="alta">🔴 Alta</td>
+          <td>26 de junio, 2025</td>
+        </tr>
+        <tr>
+          <td>Col. El Coecillo</td>
+          <td>7</td>
+          <td class="media">🟡 Media</td>
+          <td>26 de junio, 2025</td>
+        </tr>
+        <tr>
+          <td>Col. León Moderno</td>
+          <td>3</td>
+          <td class="baja">🔵 Baja</td>
+          <td>26 de junio, 2025</td>
+        </tr>
+        <tr>
+          <td>Col. San Juan Bosco</td>
+          <td>9</td>
+          <td class="alta">🔴 Alta</td>
+          <td>26 de junio, 2025</td>
+        </tr>
+        <tr>
+          <td>Col. Chapalita</td>
+          <td>5</td>
+          <td class="media">🟡 Media</td>
+          <td>25 de junio, 2025</td>
+        </tr>
+      </tbody>
+    </table>
+    <button class="actualizar">🔄 Actualizar datos</button>
+    <div class="recomendaciones">
+      <h4>Recomendaciones:</h4>
+      <ul>
+        <li>Evita salir si no es necesario en zonas de alerta alta.</li>
+        <li>Usa cubrebocas y gel antibacterial.</li>
+        <li>Mantente informado desde fuentes oficiales.</li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>
